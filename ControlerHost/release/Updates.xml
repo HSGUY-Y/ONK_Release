@@ -1,0 +1,19 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>ControlerHost</Name>
+  <DisplayName>ControlerHost</DisplayName>
+  <Description>Core Program@Version:1.0.1</Description>
+  <Version>1.0.1</Version>
+  <ReleaseDate>2025-05-26</ReleaseDate>
+  <Script>installscript.js</Script>
+  <Default>false</Default>
+  <UpdateFile CompressedSize="24578690" OS="Any" UncompressedSize="86441369"/>
+  <DownloadableArchives>config.7z,generic.7z,iconengines.7z,imageformats.7z,networkinformation.7z,platforms.7z,styles.7z,tls.7z,translations.7z,content.7z</DownloadableArchives>
+  <SHA1>c62f0421956ccd55ce975b5348343fb94581d7f1</SHA1>
+ </PackageUpdate>
+ <SHA1>7bad304615706195c53493258f33cb658cd370a1</SHA1>
+ <MetadataName>2025-05-26-2125_meta.7z</MetadataName>
+</Updates>
