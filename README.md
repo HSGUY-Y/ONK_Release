@@ -147,9 +147,8 @@
 
 # ***ControlerHost***
 <img src ="https://hsguy-y.github.io/ONK_Release/icons/set.png" width ="180" height= "180" align = center/>
-<div class = "img-container">
-<img src ="https://www.sz-onk.com/picture/logo.png" width ="180" height= "40" align = center/>
-</div>
+<img class = "img-container" src ="https://www.sz-onk.com/picture/logo.png" width ="180" height= "40" align = center/>
+
 <style>
 .img-container{
     background-color: #333 !important;
@@ -157,7 +156,8 @@
     height:40;
     padding:0;
     margin:0;
-}  
+}   
+</style> 
 
 ![](https://img.shields.io/github/stars/HsGuy-Y/ONK_Release.svg)
 ![](https://img.shields.io/github/forks/HsGuy-Y/ONK_Release.svg)
