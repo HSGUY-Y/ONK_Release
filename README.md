@@ -21,8 +21,9 @@
 - 对 `LME` 与 `AbsReslover` [参数配置与调试]()： 需配备[ONK-深圳欧诺克科技有限公司](https://www.sz-onk.com/) `BiSS-Master` 调试板;
 - 对 `LME` 与 `AbsReslover` [固件升级](#固件升级)： 需配备[ONK-深圳欧诺克科技有限公司](https://www.sz-onk.com/) `BiSS-Master` 调试板;
 ## 安装方式
-- 在线安装方式，[在线安装包下载地址](https://github.com/HSGUY-Y/ONK_Release/ControlerHost/install/onk_controlerhost_online_install.exe)
-- 离线安装方式, [离线安装包下载地址](https://github.com/HSGUY-Y/ONK_Release/ControlerHost/install/onk_controlerhost_offline_install.exe)
+- 在线安装方式：[在线安装包下载地址](https://hsguy-y.github.io/ONK_Release/ControlerHost/install/onk_controlerhost_online_install.exe)
+  
+- 离线安装方式：[离线安装包下载地址](https://github.com/HSGUY-Y/ONK_Release/ControlerHost/install/onk_controlerhost_offline_install.exe)
 ## 页面展示
 
 *BiSS调试页面：*  
