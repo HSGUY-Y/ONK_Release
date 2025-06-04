@@ -134,50 +134,50 @@
           <img src="./screenshot/calibration_machine_connect01.jpg " width = "380"/><br>
      - *待校准电机 `Moter`  与校准工装 `Calibration Controler` 通过连轴器连接，且电机 `UVW` 供电线<mark>请勿短接</mark>。*<br>
           <img src="./screenshot/calibration_machine_connect02.jpg" width = "380" /><br>
-     - *测试连接是否成功，点击 `连接` -> `串口`；*
+     - *测试连接是否成功，点击 `连接` -> `串口`；*<br>
           <img src="./screenshot/calibration_machine_connect.png" width = "380" /><br>
-     - *选择对应具有 `CH340` 标识的串口号；若无法识别，请确保电脑已经安装[CH340驱动](https://www.wch.cn/downloads/CH341SER_EXE.html)后，逐一检查硬件连接状态。设置波特率为： `115200` ,设备型号： `CALIBRATION`。*
+     - *选择对应具有 `CH340` 标识的串口号；若无法识别，请确保电脑已经安装[CH340驱动](https://www.wch.cn/downloads/CH341SER_EXE.html)后，逐一检查硬件连接状态。设置波特率为： `115200` ,设备型号： `CALIBRATION`。*<br>
           <img src="./screenshot/calibration_machine_connect01.png" width = "380" /><br>
           <img src="./screenshot/calibration_machine_connect02.png" width = "380" /><br>
-     - *连接成功提示*
+     - *连接成功提示*<br>
           <img src="./screenshot/calibration_machine_connect03.png" width = "380" /><br>
    - ***参数配置***
      - *对拖电机参数*
        - *`分辨率`： 对拖电机编码器线数，默认 `2048C/T` 。*
        - *`参考点数`: 每圈采样点数量，默认 `256` 。*
-       - *`校准速度`： 校准时的速度，对于 `LME` 系列中使用 `MT6826S` 或 `MT6835` 的产品对拖速度应设置为<mark>1000rpm以上<mark>。*
+       - *`校准速度`： 校准时的速度，对于 `LME` 系列中使用 `MT6826S` 或 `MT6835` 的产品对拖速度应设置为<mark>1000rpm以上<mark>。*<br>
           <img src="./screenshot/calibratin_setArgment.png" width = "380" /><br>
      - *差速测试参数*
-       - *为四次 `INL` 测试指定不同的转速。*
+       - *为四次 `INL` 测试指定不同的转速。*<br>
           <img src="./screenshot/calibratin_setArgment01.png" width = "380" /><br>
    - ***校准***
-     - *参数设置完成后，点击 `校准`。<mark>注：确保工装与电机连接正常，连轴器锁紧，电机三相供电线无短接</mark>。*
+     - *参数设置完成后，点击 `校准`。<mark>注：确保工装与电机连接正常，连轴器锁紧，电机三相供电线无短接</mark>。*<br>
           <img src="./screenshot/calibratin_pre.png" width = "380" /><br>
-     - *校准完成*
+     - *校准完成*<br>
           <img src="./screenshot/calibratin_finished.png" width = "380" /><br>
-     - *校准结果*
+     - *校准结果*<br>
           <img src="./screenshot/calibratin_result.png" width = "380" /><br>
-     - *点击 `粗校准` 、`精校准` 、`最终检查`,可查看校准过程中的 `INL` 曲线变化*
+     - *点击 `粗校准` 、`精校准` 、`最终检查`,可查看校准过程中的 `INL` 曲线变化*<br>
           <img src="./screenshot/calibratin_result01.png" width = "380" /><br>
           <img src="./screenshot/calibratin_result02.png" width = "380" /><br>
           <img src="./screenshot/calibratin_result03.png" width = "380" /><br>
    - ***差速测试***
-     - *参数设置完成后，点击`测试`。<mark>注：确保工装与电机连接正常，连轴器锁紧，电机三相供电线无短接</mark>。*
+     - *参数设置完成后，点击`测试`。<mark>注：确保工装与电机连接正常，连轴器锁紧，电机三相供电线无短接</mark>。*<br>
           <img src="./screenshot/calibratin_pre.png" width = "380" /><br>
-     - *测试完成*
+     - *测试完成*<br>
           <img src="./screenshot/calibratin_testFinished.png" width = "380" /><br>
-     - *测试结果*
+     - *测试结果*<br>
           <img src="./screenshot/calibratin_testResult.png" width = "380" /><br>
           <img src="./screenshot/calibratin_testResult01.png" width = "380" /><br>
-     - *测试过程中的 `INL` 曲线变化*
+     - *测试过程中的 `INL` 曲线变化*<br>
           <img src="./screenshot/calibratin_testResult02.png" width = "380" /><br>
    - ***对零***
-     - *在驱动器给定零点力矩后,点击 `对零` 按钮*
+     - *在驱动器给定零点力矩后,点击 `对零` 按钮*<br>
           <img src="./screenshot/calibratin_pre.png" width = "380" /><br>
-     - *对零结果*
+     - *对零结果*<br>
           <img src="./screenshot/calibratin_zeroFinished.png" width = "380" /><br>
 #### 固件生成
-- *此功能页用于生成 `LME` 、 `AbsReslover` 、 `BiSS-Master` 、 `Calibration Controler` 等产品的 `出厂固件` 及 `升级固件` 的合成<mark>（仅管理员权限可用）</mark>。*
+- *此功能页用于生成 `LME` 、 `AbsReslover` 、 `BiSS-Master` 、 `Calibration Controler` 等产品的 `出厂固件` 及 `升级固件` 的合成<mark>（仅管理员权限可用）</mark>。*<br>
 - ***参数配置***
 - ***固件生成***
 #### IAP升级
