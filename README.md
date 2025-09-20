@@ -2,7 +2,7 @@
 
 <div align = "center">
 <!-- <img src ="https://hsguy-y.github.io/ONK_Release/icons/set.png" width ="140" height= "140" align = "center"/><br> -->
-<img  src ="https://www.sz-onk.com/picture/logo.png" style = "background-color: #777" width ="200" height= "60"/><br>
+<img  src ="https://www.sz-onk.com/picture/logo.png" style = "background-color: rgba(66,66,66,0.4)" width ="200" height= "60"/><br>
 
 
 
@@ -178,16 +178,29 @@
           <img src="./screenshot/calibratin_zeroFinished.png" width = "380" /><br>
 #### 固件生成
 - *此功能页用于生成 `LME` 、 `AbsReslover` 、 `BiSS-Master` 、 `Calibration Controler` 等产品的 `出厂固件` 及 `升级固件` 的合成<mark>（仅管理员权限可用）</mark>。*<br>
-- ***参数配置***
-- ***固件生成***
 #### IAP升级
 - *此功能页用于对 `LME` 、 `AbsReslover` 、 `BiSS-Master` 、 `Calibration Controler` 等产品更新固件使用。<br>*
 - *对于 `AbsReslover` 或 `LME` 产品中的`RS485`协议编码器的固件升级需搭配 [ONK BC系列驱动器](https://www.sz-onk.com/) 或 `BiSS-Master` 完成固件升级功能。*
 - *对于 `LME` 系列产品中的 `BiSS-C` 协议编码器只能通过 `BiSS-Master` 完成固件升级功能。*
 - ***硬件连接***
-- 
+  - *调试电脑 `Computer` 与调试小板 `BiSS-Master` 通过 `USB2.0 Type A To USB2.0 Type B` 连接线连接；*<br>
+  - *调试小板 `BiSS-Master` 与 `AbsReslover` 或 `LME` 通过 `DP15` 线缆连接；*<br>
+  - *测试连接是否成功，点击 `连接` -> `串口`；*<br>
+          <img src="./screenshot/iap_machine_connect01.png" width = "380" /><br>
+  - *选择对应具有 `CH340` 标识的串口号；若无法识别，请确保电脑已经安装[CH340驱动](https://www.wch.cn/downloads/CH341SER_EXE.html)后，逐一检查硬件连接状态。设置波特率为： `115200` ,设备型号： `ONK_ENCODER` <mark> (对应 LME48-M16S17-ST00HA8W115V5-B 编码器) </mark> 。*<br>
+          <img src="./screenshot/iap_machine_connect02.png" width = "380" /><br>
+  - *连接成功提示*<br>
+          <img src="./screenshot/iap_machine_connect03.png" width = "380" /><br>
 - ***参数配置***
+  - *设备类型：选择需要升级固件的指定设备名称。*
+  - *协议：固件升级通信协议，`Ymodem-128`*
+  - *轴号：连接`ONK BC驱动器`时，其具有多个轴，选择不同轴号以升级不同轴的编码器。单独进行固件升级时，仅需设置为`First_Caxis`即可。*
+  - *升级固件：需要升级的固件存放地址。*
+     <img src="./screenshot/iap_setArgment.png" width = "380" /><br>
 - ***固件升级***
+  - *参数设置完成后，点击`开始`。进度条读条，期间可打开`调试窗口`查看升级状态。*
+  - *升级完成。*
+
 #### BiSS调试
 - *此功能页用于对 `LME` 系列编码器的通信调试、寄存器读写调试；另新增加 `BiSS` 与 `RS485` 协议切换功能，对`AbsReslover`新增加极对数修改功能。*
 - ***硬件连接***
