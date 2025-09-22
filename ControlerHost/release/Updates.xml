@@ -11,10 +11,10 @@
   <Script>installscript.js</Script>
   <Default>false</Default>
   <AutoRemove>true</AutoRemove>
-  <UpdateFile CompressedSize="31497112" OS="Any" UncompressedSize="152762536"/>
+  <UpdateFile CompressedSize="31414103" OS="Any" UncompressedSize="152001800"/>
   <DownloadableArchives>config.7z,generic.7z,iconengines.7z,imageformats.7z,networkinformation.7z,platforms.7z,styles.7z,tls.7z,translations.7z,content.7z</DownloadableArchives>
-  <SHA1>68992691b8f8fe6a644bf7090caaa951cf392c2a</SHA1>
+  <SHA1>b13f2f56fb8ddc8c358cdc6841db616c92441ef7</SHA1>
  </PackageUpdate>
- <SHA1>2e3297e5ec4327640366be9341cfa861d8ee6e86</SHA1>
- <MetadataName>2025-09-20-1814_meta.7z</MetadataName>
+ <SHA1>10496a762a0da810fd26779d3d9088fb1d84bc66</SHA1>
+ <MetadataName>2025-09-22-0946_meta.7z</MetadataName>
 </Updates>
