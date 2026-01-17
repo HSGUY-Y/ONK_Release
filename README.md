@@ -52,8 +52,8 @@
 
 ## 安装方式
 
-- 在线安装方式：[在线安装包下载地址](https://hsguy-y.github.io/ONK_Release/ControlerHost/install/onk_controlerhost_online_install.exe);
-- 离线安装方式：[离线安装包下载地址](https://hsguy-y.github.io/ONK_Release/ControlerHost/install/onk_controlerhost_offline_install.exe);
+- 在线安装方式：[在线安装包下载地址](https://hsguy-y.github.io/ONK_Release/ControlerHost/install/onk_contorlerhost_online_install.exe);
+- 离线安装方式：[离线安装包下载地址](https://hsguy-y.github.io/ONK_Release/ControlerHost/install/onk_contorlerhost_offline_install.exe);
 
 ## 功能详述
 
